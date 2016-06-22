@@ -1,5 +1,5 @@
-# TinyDataAssignment
-This is for the Coursera "Getting and Cleaning Data" week 4 assignment
+# Tiny Data Assignment
+## This is for the Coursera "Getting and Cleaning Data" week 4 assignment
 The purpose of the function “run_analysis(fileWrite)” is to merge two datasets (testing and training), extract only measurements relating to a mean or standard deviation, apply descriptive labels, and create a second tidy data set that has the mean for each feature, activity and subject.  It calls functions from the “dplyr” and “reshape2” libraries; it will open those libraries upon execution but an error may occur if their respective packages have not yet been installed.
 
 The data comes from a “Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.”  (Source: UCI Machine Learning Repository; http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
